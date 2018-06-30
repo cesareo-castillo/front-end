@@ -1,0 +1,31 @@
+{
+  "name": "front_end",
+  "version": "1.0.0",
+  "description": "Front End para el consumo de API en .API en .NET (Cubo - MDX)",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production & node ./bin/www.js",
+    "start-dev": "SET DEBUG=front_end:* & nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesareo-castillo/front-end.git"
+  },
+  "author": "Cesáreo Castillo Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesareo-castillo/front-end/issues"
+  },
+  "homepage": "https://github.com/cesareo-castillo/front-end#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
